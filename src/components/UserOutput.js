@@ -11,6 +11,7 @@ const userOutput = (props)=>{
             <div>
                 <label>Position : </label> <span>{props.position}</span>
             </div>
+            <button onClick = {props.deletePerson}>Delete</button>
             <UserInput inputValue= {props.click} defaultName={props.name}/>
         </div>
     )
